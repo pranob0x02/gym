@@ -105,16 +105,13 @@ body {
   /* margin: 10px 100px; */
   display: block;
   width: 70%;
-  margin: auto 105px;
+  margin: 20px 105px;
 }
 
 .container button {
-  /* margin: 10px 50px;
-  border-radius: 15px;
-  padding: 0px 15px; */
   display: block;
-  width: 20%;
-  margin: auto;
+  width: 17%;
+  margin: 5px auto;
   padding: 0px 15px;
 }
 
