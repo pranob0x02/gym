@@ -1,0 +1,131 @@
+/* CSS reset */
+
+body {
+  font-family: "Baloo Da 2", cursive;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url(gym.jpg);
+}
+
+.left {
+  display: inline-block;
+  /* border: 2px solid white; */
+  position: absolute;
+  left: 34px;
+  top: 20px;
+}
+.left div {
+  line-height: 23px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 3px;
+}
+.left img {
+  width: 100px;
+  filter: invert(100%);
+}
+
+.middle {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  /* border: 2px solid white; */
+}
+.right {
+  display: inline-block;
+  /* border: 2px solid white; */
+  position: absolute;
+  right: 20px;
+  top: 35px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+  padding-top: 0px;
+}
+
+.navbar li a {
+  color: white;
+  margin: 22px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Baloo Da 2", cursive;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+.container {
+  border: 2px solid white;
+  margin: 100px 145px;
+  width: 33%;
+  border-radius: 2px;
+  padding: 20px 75px;
+}
+
+.form-group {
+}
+.form-group input {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  padding: 6px;
+  border: 2px solid black;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.form-group input:focus {
+  background-color: rgb(250, 17, 17);
+}
+
+.form-group {
+  /* margin: 10px 100px; */
+  display: block;
+  width: 70%;
+  margin: auto 105px;
+}
+
+.container button {
+  /* margin: 10px 50px;
+  border-radius: 15px;
+  padding: 0px 15px; */
+  display: block;
+  width: 20%;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+/* Important CSS code */
+.container h1 {
+  animation: blinker 1s infinite;
+  text-align: center;
+  margin: 0px auto;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
